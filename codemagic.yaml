@@ -19,7 +19,7 @@ workflows:
       xcode: latest
       
     integrations:
-      app_store_connect: "Codemagic API key"
+      app_store_connect: "codemagic"
 
     scripts:
       - name: Set up code signing settings on Xcode project
